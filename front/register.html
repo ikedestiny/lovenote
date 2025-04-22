@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="register.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-box login">
+            <form action="">
+                <h1>Sign In</h1>
+                <div class="input-box">
+                    <input type="text" placeholder="Username" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Password" required>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <div class="forgot-password">
+                    <input type="checkbox" id="rememberme" name="rememberme" value="Remember">
+                    <label for="rememberme"> Remember me</label>
+                    <a href="#">Forgot password?</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <p style="margin: 10px;">or</p>
+                <div class="social-icons">
+                    <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+                    <a href="#"><i style="color: brown;" class='bx bxl-google-plus-circle' ></i></a>
+                    <a href="#"><i style="color: rgb(1, 219, 219);" class='bx bxl-twitter' ></i></a>
+                </div>
+            </form>
+        </div>
+        
+        <div class="form-box register">
+            <form action="">
+                <h1>Sign Up</h1>
+                <div class="input-box">
+                    <input type="text" placeholder="Username" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-box">
+                    <input type="email" placeholder="Email" required>
+                    <i class='bx bxs-envelope' ></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Password" required>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <div class="Terms-service">
+                    <input type="checkbox" id="tos" name="tos" value="TOS">
+                    <label for="tos"> By signing up you accept the <a href="#">Terms of service</a></label>
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <p style="margin: 10px;">or</p>
+                <div class="social-icons">
+                    <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+                    <a href="#"><i style="color: brown;" class='bx bxl-google-plus-circle' ></i></a>
+                    <a href="#"><i style="color: rgb(1, 219, 219);" class='bx bxl-twitter' ></i></a>
+                </div>
+            </form>
+        </div>
+
+        <div class="toggle-box">
+            <div class="toggle-panel toggle-left">
+                <h1>Welcome Back!</h1>
+                <p>Don't have an account?</p>
+                <button class="btn-reg">Register</button>
+            </div>
+            <div class="toggle-panel toggle-right">
+                <h1>Hello there!</h1>
+                <p>Already have an account?</p>
+                <button class="btn-log">Sign In</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="register.js"></script>
+</body>
+</html>
